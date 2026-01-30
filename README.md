@@ -1,1 +1,44 @@
-# face-mask-detection-cnn
+# Face Mask Detection using CNN 😷
+
+This project detects whether a person is wearing a face mask or not using a Convolutional Neural Network (CNN).
+
+---
+
+## 📌 Problem Statement
+Automatically identify whether a person in an image is wearing a face mask.  
+This is a binary classification problem with two classes:
+- With Mask
+- Without Mask
+
+---
+
+## 🧠 Approach
+- Used a CNN-based model for image classification
+- Applied transfer learning using a pre-trained CNN
+- Trained the model on a labeled image dataset
+- Evaluated performance using accuracy and visual predictions
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Matplotlib
+
+---
+
+## 📊 Results
+The model achieves good classification performance on the validation set and correctly identifies mask usage in sample images.
+
+<p align="center">
+  <img src="results/sample_predictions.png" width="400"/>
+</p>
+
+---
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python src/train.py
