@@ -19,6 +19,13 @@ This is a binary classification problem with two classes:
 - Evaluated performance using accuracy and visual predictions
 
 ---
+## 📦 Dataset
+This project uses a Face Mask Detection dataset from Kaggle.
+
+Due to size limitations, a small subset of images is uploaded here.
+Full dataset:
+https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
+
 
 ## 🛠️ Tech Stack
 - Python
