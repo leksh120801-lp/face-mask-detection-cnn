@@ -23,7 +23,7 @@ This is a binary classification problem with two classes:
 This project uses a Face Mask Detection dataset from Kaggle.
 
 Due to size limitations, a small subset of images is uploaded here.
-Full dataset:
+Full dataset can be found below 
 https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
 
 
@@ -40,7 +40,7 @@ https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
 The model achieves good classification performance on the validation set and correctly identifies mask usage in sample images.
 
 <p align="center">
-  <img src="results/sample_predictions.png" width="400"/>
+  <img src="results/accuracy.png" width="400"/>
 </p>
 
 ---
